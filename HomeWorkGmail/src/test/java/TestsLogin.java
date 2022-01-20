@@ -26,7 +26,7 @@ public class TestsLogin {
         WebElement webElementbtnNext2 = (new WebDriverWait(driver, Duration.ofSeconds(10))).until
                 (ExpectedConditions.presenceOfElementLocated(By.xpath("//button [@class = 'VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc qIypjc TrZEUc lw1w4b']")));
         webElementbtnNext2.click();
-        driver.close();
+        //       driver.close();
     }
 
 
